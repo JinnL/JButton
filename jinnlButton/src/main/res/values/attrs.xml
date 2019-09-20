@@ -1,0 +1,37 @@
+<resources>
+    <declare-styleable name="JButton">
+        <!--  填充色 -->
+        <attr name="jinn_color_n" format="reference|color" />
+        <!--  按下填充色 -->
+        <attr name="jinn_color_p" format="reference|color" />
+        <!--  btn禁用颜色 -->
+        <attr name="jinn_color_e" format="reference|color" />
+        <!-- 普通文本颜色 -->
+        <attr name="jinn_textcolor_n" format="reference|color" />
+        <!-- 按下文本颜色 -->
+        <attr name="jinn_textcolor_p" format="reference|color" />
+        <!-- btn禁用文本颜色 -->
+        <attr name="jinn_textcolor_e" format="reference|color" />
+        <!-- 边框色 -->
+        <attr name="jinn_storke_color_n" format="reference|color" />
+        <!--渐变开始颜色 API 16起作用-->
+        <attr name="jinn_startColor" format="reference|color" />
+        <!--渐变结束颜色-->
+        <attr name="jinn_endColor" format="reference|color" />
+        <!--渐变方向-->
+        <attr name="jinn_gradientDirection"  >
+            <enum name="LEFT_RIGHT" value="0"></enum>
+            <enum name="TOP_BOTTOM" value="1"></enum>
+            <enum name="TL_BR" value="2"></enum>
+            <enum name="BL_TR" value="3"></enum>
+        </attr>
+        <!-- 按下边框色 -->
+        <attr name="jinn_storke_color_p" format="reference|color" />
+        <!-- 圆角大小 -->
+        <attr name="jinn_corners" format="reference|dimension" />
+        <!-- 描边线条粗细 -->
+        <attr name="jinn_storke" format="reference|dimension" />
+        <!--是否显示 涟漪效果  5.0起作用 -->
+        <attr name="jinn_ripple_effect" format="boolean" />
+    </declare-styleable>
+</resources>

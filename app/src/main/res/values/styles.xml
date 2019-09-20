@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- 默认实心渐变JButton风格 -->
+    <style name="JButtonGradualStyle">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="jinn_startColor">#E1BC8C</item>
+        <item name="jinn_endColor">#D79C5A</item>
+        <item name="jinn_color_e">#E1E1E1</item>
+        <item name="jinn_corners">24dp</item>
+    </style>
+    <!-- 默认实心JButton风格 -->
+    <style name="JButtonStyle">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="jinn_color_p">#E1BC8C</item>
+        <item name="jinn_color_n">#D79C5A</item>
+        <item name="jinn_color_e">#E1E1E1</item>
+        <item name="jinn_corners">24dp</item>
+    </style>
+    <!-- 默认空心JButton风格 -->
+    <style name="JButtonStrokeStyle">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">18dp</item>
+        <item name="jinn_textcolor_n">#D79C5A</item>
+        <item name="jinn_textcolor_p">@android:color/white</item>
+        <item name="jinn_color_n">@android:color/white</item>
+        <item name="jinn_color_p">#D79C5A</item>
+        <item name="jinn_storke_color_n">#D79C5A</item>
+        <item name="jinn_storke_color_p">#D79C5A</item>
+        <!--         <item name="sb_storke_color_e">#bbbbbb</item> -->
+        <item name="jinn_storke">1dp</item>
+        <item name="jinn_color_e">#E1E1E1</item>
+        <item name="jinn_corners">24dp</item>
+    </style>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <!--<com.jinn.jbutton.weight.JButton-->
+    <!--android:id="@+id/btn1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="48dp"-->
+    <!--android:text="默认样式"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--app:jinn_ripple_effect="true"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+    <com.jinn.jbutton.weight.JButton
+        android:id="@+id/btn1"
+        style="@style/JButtonGradualStyle"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="18dp"
+        android:text="渐变按钮"
+        app:jinn_gradientDirection="TOP_BOTTOM"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.jinn.jbutton.weight.JButton
+        android:id="@+id/btn2"
+        style="@style/JButtonStyle"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="18dp"
+        android:text="点击变色"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <com.jinn.jbutton.weight.JButton
+        android:id="@+id/btn3"
+        style="@style/JButtonGradualStyle"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="18dp"
+        android:text="渐变按钮"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn2" />
+
+    <com.jinn.jbutton.weight.JButton
+        android:id="@+id/btn4"
+        style="@style/JButtonStrokeStyle"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="18dp"
+        android:text="B"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn3" />
+
+    <com.jinn.jbutton.weight.JButton
+        android:id="@+id/btn5"
+        style="@style/JButtonStyle"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="12dp"
+        android:text="比你还圆"
+        app:jinn_corners="48dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/btn6"
+        app:layout_constraintTop_toBottomOf="@+id/btn4" />
+
+    <com.jinn.jbutton.weight.JIconButton
+        android:id="@+id/btn6"
+        style="@style/JButtonStrokeStyle"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:drawableTop="@mipmap/ic_wished"
+        android:drawablePadding="6dp"
+        android:text="喜欢你"
+        app:jinn_corners="48dp"
+        app:layout_constraintLeft_toRightOf="@id/btn5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn5" />
+
+    <com.jinn.jbutton.weight.JButton
+        android:id="@+id/btn8"
+        style="@style/JButtonStyle"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="18dp"
+        android:text="水波纹"
+        app:jinn_corners="0dp"
+        app:jinn_ripple_effect="true"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn6" />
+
+    <com.jinn.jbutton.weight.JButton
+        android:id="@+id/btn9"
+        style="@style/JButtonStyle"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="18dp"
+        android:text="被禁用"
+        app:jinn_color_e="@color/colorPrimary"
+        app:jinn_corners="0dp"
+        app:jinn_ripple_effect="false"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn8" />
+
+    <com.jinn.jbutton.weight.JIconButton
+        android:id="@+id/btn7"
+        style="@style/JButtonStyle"
+
+        android:drawableLeft="@mipmap/ic_report_share"
+        android:drawablePadding="6dp"
+        android:text="分享给好友"
+        app:jinn_corners="0dp"
+        app:jinn_ripple_effect="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</android.support.constraint.ConstraintLayout>
